@@ -1,18 +1,22 @@
 * {box-sizing:border-box}
+* {font-family: 'Courier New', Courier, monospace;}
+* body{
+  background-color: #ffff80;
+}
 
-/* Slideshow container */
+/* contêiner de apresentação de slides */
 .slideshow-container {
   max-width: 1000px;
+  max-height: 800px;
   position: relative;
   margin: auto;
 }
-
-/* Hide the images by default */
+/* Ocultar as imagens por padrão */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+/* Botões Próximo e Anterior */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -28,18 +32,18 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Posicione o "botão seguinte" à direita */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* Ao passar o mouse, adicione uma cor de fundo preta com um pouco de transparência */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Texto da legenda */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -50,7 +54,7 @@
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* Texto do número (1/6 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -59,7 +63,7 @@
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* Os pontos/balas/indicadores */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -85,3 +89,38 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+/*Sugestão da fonte para o texto - inicio*/
+img {
+    height: 400px;
+   }
+.text{
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+    }
+p{
+ text-align: center;
+ font-size: x-large;
+}
+
+/*EXERCICIO POSTERIOR EXCREVER LA NO DESAFIO.TXT*/
+/*Sugestão da fonte para o texto - fim*/
+/* Sobre o About ou editar sobre o Repositório */
+
+
+/*MENU HORIZONTAL INICIO*/
+.menu-horizontal{
+    text-align: center;
+    text-transform: none;
+    padding: 0%;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline-block;
+  }
+
+  /*MENU HORIZONTAL FINAL*/
