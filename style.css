@@ -7,7 +7,7 @@
 /* contêiner de apresentação de slides */
 .slideshow-container {
   max-width: 900px;
-  max-height: 1000px;
+  max-height: 1100px;
   position: relative;
   margin: auto;
 }
